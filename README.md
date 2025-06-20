@@ -22,3 +22,7 @@ create NCP, 6t90 and c. A+B+C+D+E+F+G+H+I+J
 create OCTSOX, 6t90 and (c. K+L or (c. I and i. 3-24) or (c. J and i. 124-145))
 scan_factor NCP, OCTSOX, probe_center=True
 ```
+
+## Contributors
+
+Richard D. Bunker and Georg Kempf

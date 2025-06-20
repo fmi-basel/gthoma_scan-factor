@@ -50,8 +50,8 @@ def scan_factor(target, probe, first_base_probe=None, probe_center=False, probe_
 
       fetch 6t90, async=0
       create NCP, 6t90 and c. A+B+C+D+E+F+G+H+I+J
-      create OCTSOX, 6t90 and c. K+L
-      cmd.scan_factor(NCP, OCTSOX, probe_center=True)
+      create OCTSOX, 6t90 and (c. K+L or (c. I and i. 3-24) or (c. J and i. 124-145))
+      scan_factor NCP, OCTSOX, probe_center=True
 
   """
   try:
